@@ -1,6 +1,5 @@
 os:
-  - osx
-  - linux
+  - windows
 
 language: node_js
 
