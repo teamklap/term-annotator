@@ -1,5 +1,4 @@
 os:
-  - windows
   - linux
   - osx
 
@@ -10,6 +9,7 @@ node_js:
 
 before_install:
   - npm install -g xo
+  - sudo apt install wine64
 
 install:
   - npm install
