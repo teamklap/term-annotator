@@ -41,7 +41,7 @@
     "xo": "^0.24.0"
   },
   "release": {
-    "branch": "tan/test-sem-rel",
+    "branch": "tania/test-sem-rel",
     "plugins": [
       [
         "@semantic-release/github",
