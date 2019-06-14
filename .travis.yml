@@ -9,7 +9,7 @@ node_js:
 
 before_install:
   - npm install -g xo
-  - sudo apt-get install wine1.6-amd64
+  - sudo apt-get install wine1.6-amd64 zip
 
 install:
   - npm install
