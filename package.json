@@ -11,7 +11,7 @@
     "dist": "electron-builder --publish never",
     "publish": "electron-builder --publish onTag",
     "package-windows": "electron-packager . --overwrite --asar --platform=win32 --arch=ia32",
-    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64",
+    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64 && zip -r term-annotator-app.zip folder term-annotator-win32-ia32", 
     "semantic-release": "semantic-release"
   },
   "author": "Someone",
@@ -48,7 +48,7 @@
         {
           "assets": [
             {
-              "path": "term-annotator-win32-ia32/**",
+              "path": "term-annotator-annotator.zip",
               "label": "distribution"
             }
           ]
