@@ -19,6 +19,7 @@ script:
 
 after_success:
   - npm run package-windows
+  - npm run package-linux
   - npm run semantic-release
 
 
