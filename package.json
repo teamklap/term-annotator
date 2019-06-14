@@ -49,7 +49,7 @@
           "assets": [
             {
               "path": "term-annotator-app.zip",
-              "label": "distribution"
+              "label": "term-annotato-app"
             }
           ]
         }
