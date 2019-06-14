@@ -41,14 +41,14 @@
     "xo": "^0.24.0"
   },
   "release": {
-    "branch": "tan/package-app",
+    "branch": "tan/test-sem-rel",
     "plugins": [
       [
         "@semantic-release/github",
         {
           "assets": [
             {
-              "path": "term-annotator-linux-x64",
+              "path": "term-annotator-win32-ia32",
               "label": "distribution"
             }
           ]
