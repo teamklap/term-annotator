@@ -10,8 +10,8 @@
     "pack": "build --dir",
     "dist": "electron-builder --publish never",
     "publish": "electron-builder --publish onTag",
-    "package-windows": "electron-packager . --overwrite --asar --platform=win32 --arch=ia32 && zip -r term-annotator-app.zip folder term-annotator-win32-ia32",
-    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64", 
+    "package-windows": "electron-packager . --overwrite --asar --platform=win32 --arch=ia32 && zip -r term-annotator-app-windows.zip term-annotator-win32-ia32",
+    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64 && zip -r term-annotator-app-linux.zip term-annotator-linux-x64", 
     "semantic-release": "semantic-release"
   },
   "author": "Someone",
@@ -48,8 +48,12 @@
         {
           "assets": [
             {
-              "path": "term-annotator-app.zip",
-              "label": "term-annotato-app"
+              "path": "term-annotator-app-windows.zip",
+              "label": "term-annotato-app-windows"
+            },
+            {
+              "path": "term-annotator-app-linux.zip",
+              "label": "term-annotato-app-linux"
             }
           ]
         }
