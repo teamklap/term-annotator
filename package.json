@@ -32,7 +32,7 @@
     "ejs": "^2.6.1",
     "electron-store": "^2.0.0",
     "fluent-ffmpeg": "^2.1.2",
-    "gif-frames": "^1.0.1",
+    "gif-frames": "git+https://github.com/TaniaPash/gif-frames.git",
     "mkdirp": "^0.5.1",
     "mv": "^2.1.1"
   },
